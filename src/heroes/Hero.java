@@ -79,6 +79,8 @@ public abstract class Hero implements Levelable{
     public void equip(Weapon weapon){
         if(this.level >= weapon.getLevel())
             this.equipment.equip(weapon);
+        else
+            System.out.println("Hero can't equip the weapon.\n");
     }
 
     //method for gaining xp
