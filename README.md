@@ -20,7 +20,7 @@ Mage mage = new Mage(String name);
 ```
 to construct new Weapon (replace RangedWeapon with MeleeWeapon / MagicWeapon)
 ```java
-RanedWeapon rangedWeapon = new RangedWeapon(String name, int level);
+RangedWeapon rangedWeapon = new RangedWeapon(String name, int level);
 ```
 to construct new Armor (replace PlateArmor with ClothArmor / LeatherArmor and EquipmentSlot.LEGSLOT with EquipmentSlot.BODY/HEAD)
 ```java
