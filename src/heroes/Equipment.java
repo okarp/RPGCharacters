@@ -36,11 +36,11 @@ public class Equipment{
                     previousArmor = body;
                 this.body = armor;
             }
-            if (slot.equals(EquipmentSlot.LEGSLOT))
-                if(leg != null){
+            if (slot.equals(EquipmentSlot.LEGSLOT)){
+                if(leg != null)
                     previousArmor = leg;
                 this.leg = armor;
-        }
+            }
             return previousArmor;
     }
 
